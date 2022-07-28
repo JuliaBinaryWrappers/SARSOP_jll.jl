@@ -11,27 +11,27 @@ function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_executable_product(
         polgraph,
-        "bin/polgraph.exe",
+        "bin\\polgraph.exe",
     )
 
     JLLWrappers.@init_executable_product(
         pomdpconvert,
-        "bin/pomdpconvert.exe",
+        "bin\\pomdpconvert.exe",
     )
 
     JLLWrappers.@init_executable_product(
         pomdpeval,
-        "bin/pomdpeval.exe",
+        "bin\\pomdpeval.exe",
     )
 
     JLLWrappers.@init_executable_product(
         pomdpsim,
-        "bin/pomdpsim.exe",
+        "bin\\pomdpsim.exe",
     )
 
     JLLWrappers.@init_executable_product(
         pomdpsol,
-        "bin/pomdpsol.exe",
+        "bin\\pomdpsol.exe",
     )
 
     JLLWrappers.@generate_init_footer()
